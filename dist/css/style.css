@@ -1,0 +1,74 @@
+h1, h2, h3 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h1.lg-heading, h2.lg-heading, h3.lg-heading {
+  font-size: 6rem;
+}
+
+h1.sm-heading, h2.sm-heading, h3.sm-heading {
+  background: rgba(73, 73, 73, 0.5);
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+}
+
+.btn, .btn-dark, .btn-light {
+  border: 0;
+  display: block;
+  margin-bottom: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover, .btn-dark:hover, .btn-light:hover {
+  background: #eece1a;
+  color: #000;
+}
+
+.btn-dark {
+  background: black;
+  color: #fff;
+}
+
+.btn-light {
+  background: #c4c4c4;
+  color: #333;
+}
+
+#main-footer {
+  background: #2b2b2b;
+  color: #fff;
+  height: 60px;
+  padding: 1rem;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #444;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+body#bg-img {
+  background: url("");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body#bg-img:after {
+  background: rgba(68, 68, 68, 0.9);
+  content: '';
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}

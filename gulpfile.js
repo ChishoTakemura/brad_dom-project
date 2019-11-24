@@ -17,7 +17,7 @@ return gulp
 .pipe( sass({outputStyle: 'expanded'}))
 .pipe( postcss([ autoprefixer() ]) )
 .pipe( postcss([ cssdeclsort({ order: 'alphabetically' }) ]) )
-.pipe(gulp.dest('css'));
+.pipe(gulp.dest('./dist/css'));
 });
 
 // watch
